@@ -80,6 +80,7 @@ givenName: PingFederate
 uid: administrator
 userPassword: 2FederateM0re
 pf-connected-identity: auth-source=pf-local-identity:user-id=administrator
+ds-privilege-name: proxied-auth
 
 dn: uid=access2federate,ou=People,${USER_BASE_DN}
 objectClass: top
@@ -108,5 +109,3 @@ uid: auditor
 mail: {uid}@example.com
 userPassword: 2FederateM0re
 pf-connected-identity: auth-source=pf-local-identity:user-id=auditor
-
-
